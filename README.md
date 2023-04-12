@@ -28,3 +28,17 @@
     <ul>
         <li>Mã hóa nội dung tin nhắn giữa client – server. Phải sử dụng key khác nhau cho các client => Sử dụng RSA và AES</li>
     </ul>
+
+<h4>Yêu cầu phải có:</h4>
+    <ul>
+            <li>Jdk 1.8</li>
+            <li>Mysql</li>
+        </ul>
+
+<h4>Cách chạy chương trình</h4>
+    <ol>
+        <li>Clone source code về và giải nén thư mục `Library.zip` sau đó import các thư viện trong thư mục</li>
+        <li>Tạo CSDL với tên `chatdb` và import file chatdb.sql</li>
+        <li>Khởi chạy server src/Network/ServerGUI.java</li>
+        <li>Chạy các client src/GUI/Login.java để bắt đầu</li>
+    </ol>
